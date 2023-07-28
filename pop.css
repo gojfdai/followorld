@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Sans-Serif;
+}
+.wrapper{
+  background-color: #106fde;
+  width: 100%;
+  height: 100%;
+  padding: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: #fff;
+  width: 900px;
+  padding: 400px;
+  border-radius: 16px;
+  background-color: rgba(0,0,0,0.08) 0px 4px 12px;
+}
+.h{
+  padding: 0px;
+  color: #106fde;
+  font-size: 26px;
+  background-color: transparent;
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  cursor: pointer;
+}
+.h a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.h a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 118px;
+  height: 5px;
+  background: #106fde;
+  border-radius: 5px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: .5s;
+}
+.h a:hover::after{
+  transform: translateY(0);
+  opacity: 4;
+}
+.navbar{
+  font-size: 18px;
+  position: absolute;
+  top: 80px;
+  right: 330px;
+}
+.navbar a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.navbar a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 26px;
+  width: 43px;
+  height: 5px;
+  background: #106fde;
+  border-radius: 5px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: .5s;
+}
+.navbar a:hover::after{
+  transform: translateY(0);
+  opacity: 4;
+  cursor: pointer;
+}
+.navbar1{
+  font-size: 18px;
+  position: absolute;
+  top: 80px;
+  right: 230px;
+}
+.navbar1 a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.navbar1 a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 26px;
+  width: 85px;
+  height: 5px;
+  background: #106fde;
+  border-radius: 5px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: .5s;
+}
+.navbar1 a:hover::after{
+  transform: translateY(0);
+  opacity: 4;
+  cursor: pointer;
+}
+.navbar2{
+  font-size: 18px;
+  position: absolute;
+  top: 80px;
+  right: 150px;
+}
+.navbar2 a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.navbar2 a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 26px;
+  width: 70px;
+  height: 5px;
+  background: #106fde;
+  border-radius: 5px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: .5s;
+}
+.navbar2 a:hover::after{
+  transform: translateY(0);
+  opacity: 4;
+  cursor: pointer;
+}
+.navbar3{
+  font-size: 18px;
+  position: absolute;
+  top: 80px;
+  right: 70px;
+}
+.navbar3 a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.navbar3 a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 26px;
+  width: 65px;
+  height: 5px;
+  background: #106fde;
+  border-radius: 5px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: .5s;
+}
+.navbar3 a:hover::after{
+  transform: translateY(0);
+  opacity: 4;
+  cursor: pointer;
+}
+.search{
+  padding: 0px;
+  background-color: transparent;
+  position: absolute;
+  width: 880px;
+  top: 150px;
+  left: 45px;
+}

@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Sans-Serif;
+}
+.wrapper{
+  background-color: #106fde;
+  width: 100%;
+  height: 100%;
+  padding: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 900px;
+  background-color: #fff;
+  padding: 45px;
+  border-radius: 16px;
+  background-color: rgba(0,0,0,0.08) 0px 4px 12px;
+}
+.h{
+  padding: 0px;
+  color: #106fde;
+  font-size: 26px;
+  background-color: transparent;
+  position: absolute;
+  left: 100px;
+  top: 90px;
+  cursor: pointer;
+}
+.h a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.h a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 35px;
+  width: 126px;
+  height: 5px;
+  background: #106fde;
+  border-radius: 5px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: .5s;
+}
+.h a:hover::after{
+  transform: translateY(0);
+  opacity: 4;
+}
+.navbar4{
+  font-size: 18px;
+  position: absolute;
+  top: 85px;
+  right: 400px;
+}
+.navbar4 a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.navbar4 a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 26px;
+  width: 63px;
+  height: 5px;
+  background: #106fde;
+  border-radius: 5px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: .5s;
+}
+.navbar4 a:hover::after{
+  transform: translateY(0);
+  opacity: 4;
+  cursor: pointer;
+}
+.navbar1{
+  font-size: 18px;
+  position: absolute;
+  top: 85px;
+  right: 288px;
+}
+.navbar1 a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.navbar1 a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 26px;
+  width: 90px;
+  height: 5px;
+  background: #106fde;
+  border-radius: 5px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: .5s;
+}
+.navbar1 a:hover::after{
+  transform: translateY(0);
+  opacity: 4;
+  cursor: pointer;
+}
+.navbar2{
+  font-size: 18px;
+  position: absolute;
+  top: 85px;
+  right: 193px;
+}
+.navbar2 a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.navbar2 a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 26px;
+  width: 75px;
+  height: 5px;
+  background: #106fde;
+  border-radius: 5px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: .5s;
+}
+.navbar2 a:hover::after{
+  transform: translateY(0);
+  opacity: 4;
+  cursor: pointer;
+}
+.navbar3{
+  font-size: 18px;
+  position: absolute;
+  top: 85px;
+  right: 100px;
+}
+.navbar3 a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.navbar3 a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 26px;
+  width: 70px;
+  height: 5px;
+  background: #106fde;
+  border-radius: 5px;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: .5s;
+}
+.navbar3 a:hover::after{
+  transform: translateY(0);
+  opacity: 4;
+  cursor: pointer;
+}
+.class{
+  margin-top: 60px;
+}
+.class-2{
+  margin-top: 60px;
+}
+.title-section{
+  margin-bottom: 30px;
+}
+.title{
+  color: #38475a;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  margin-left: 320px;
+  cursor: default;
+}
+.para{
+  color: #38475a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.input-group{
+  position: relative;
+}
+.input-group .label-title{
+  color: #38475a;
+  text-transform: capitalize;
+  margin-bottom: 11px;
+  font-size: 14px;
+  display: block;
+  font-weight: 500;
+}
+
+.input-group input{
+  width: 100%;
+  background-color: none;
+  color: #38475a;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 9px 18px 9px 52px;
+  outline: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-left: 1px;
+}
+.input-group input::placeholder{
+  color: #38475a;
+  font-size: 16px;
+  font-weight: 400;
+  top: 14px;
+  left: 25px;
+}
+.input-group img{
+  width: 30px;
+  position: absolute;
+  right: 15px;
+  bottom: 34px;
+  cursor: pointer;
+}
+.input-group .icon{
+  position: absolute;
+  font-size: 40px;
+  right: 15px;
+  top: 42px;
+  cursor: default;
+}
+.submit-btn{
+  width: 100%;
+  background-color: #106fde;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  padding: 13px 24px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.submit-btn:hover{
+ opacity: 0.95; 
+}
+.last{
+  background-color: transparent;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 260px;
+  color: #38475a;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.jay{
+  border: 1px solid transparent;
+  font-size: 16px;
+  background-color: #fff;
+  color: #38475a;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  margin-top: 4px;
+  right: 375px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.last2{
+  background-color: transparent;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 290px;
+  color: #38475a;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.jay2{
+  border: none;
+  font-size: 16px;
+  background-color: transparent;
+  color: #38475a;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  margin-top: 4px;
+  right: 325px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
